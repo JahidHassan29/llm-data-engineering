@@ -1,1 +1,14 @@
+{
+  "description": "Schema for evaluation and benchmarking data",
+  "required_fields": {
+    "question": "string",
+    "reference_answer": "string",
+    "category": "string"
+  },
+  "notes": {
+    "question": "The evaluation prompt",
+    "reference_answer": "Ground-truth expected answer",
+    "category": "Skill or topic being tested"
+  }
+}
 
