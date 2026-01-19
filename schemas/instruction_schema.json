@@ -1,1 +1,14 @@
+{
+  "description": "Schema for instruction tuning data",
+  "required_fields": {
+    "instruction": "string",
+    "input": "string (optional)",
+    "output": "string"
+  },
+  "notes": {
+    "instruction": "The task given to the model",
+    "input": "Optional additional context",
+    "output": "Expected correct response"
+  }
+}
 
