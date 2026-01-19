@@ -1,1 +1,14 @@
+{
+  "description": "Schema for human preference comparison data",
+  "required_fields": {
+    "prompt": "string",
+    "chosen": "string",
+    "rejected": "string"
+  },
+  "notes": {
+    "prompt": "The instruction or user query",
+    "chosen": "The preferred response",
+    "rejected": "The less preferred response"
+  }
+}
 
